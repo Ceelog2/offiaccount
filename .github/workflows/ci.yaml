@@ -2,7 +2,7 @@ on: push
 name: golang-ci
 jobs:
   checks:
-    name: run-test
+    name: run-test2
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
